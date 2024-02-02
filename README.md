@@ -1,10 +1,10 @@
-<H1>Calculate halftone-steps into frequencies (Hz) </H1>
+<H1>Calculate semitone-steps into frequencies (Hz) </H1>
 
 Prerequisite Python Packages: <b>math</b>
 
 This software will calculate the frequencies of each semitone step starting with standard pitch: "A" (@440 Hz) as well as the distance multiplier to the next half-tone.
 
-For the calculation the following formular was used: f = 2^(1/n) <BR>
+For the calculation the following formular was used: f = a*2^(1/n) <BR>
 ( https://en.wikipedia.org/wiki/Semitone )
 
 The execution of the scale.py script will produce the following output:
