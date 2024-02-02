@@ -1,8 +1,8 @@
-<H1>Calculate semitone-steps into frequencies (Hz) </H1>
+<H1>scale.py - Calculate semitone-steps into frequencies (Hz) </H1>
 
 Prerequisite Python Packages: <b>math</b>
 
-This software will calculate the frequencies of each semitone step starting with standard pitch: "A" (@440 Hz) as well as the distance multiplier to the next half-tone.
+Calculate the frequency of each semitone - starting with standard pitch: "A" (@440Hz) - as well as the "distance multiplier" to the next half-tone.
 
 For the calculation the following formular was used: f = a*2^(1/n) <BR>
 ( https://en.wikipedia.org/wiki/Semitone )
@@ -26,3 +26,13 @@ Step 	Tone 	Freq Hz 		Distance multiplier
 ------------------------------------------------------------
 13 	A   	880.0                	2.0                 
 ```
+<HR>
+
+<H1>prime.py - A prime number based bechmark test</H1>
+
+This cript will run for 10 seconds (as default) and tries to calculate as much prime numbers as possible. If it gets called with an integer as argument this number will become the new running time (in seconds) <BR>
+The purpose of this version will is only to output the amount of found primes within n-seconds - not to print the primes themselves. <BR>
+```
+Usage: prime.py [seconds]  
+``` 
+<HR>
